@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+}
+h2 {
+  text-align: center;
+}
+/* .responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+} */
+
+@media (min-width: 576px) {
+  .responsive {
+    height: auto;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .responsive {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive {
+    height: 360px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive {
+    height: 360px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .responsive {
+    height: 360px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+header,
+footer {
+  flex: 0 0 auto;
+}
+
+main {
+  text-align: center;
+  padding: 5vmin;
+  flex: 1 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
