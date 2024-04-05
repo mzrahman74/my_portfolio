@@ -1,5 +1,2 @@
 # my portfolio
-
-# required
-
-node.js v21.6.1
+This project required current version of node.js, ejs, express and bootstrap.
