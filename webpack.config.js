@@ -17,7 +17,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.(scss)$/,
+        test: /\.(css)$/,
         use: [
           {
             // Adds CSS to the DOM by injecting a `<style>` tag
@@ -39,6 +39,15 @@ export default {
           {
             // Loads a SASS/SCSS file and compiles it to CSS
             loader: "sass-loader"
+          },
+          {
+            test: /\.js$/,
+            loader: "babel-loader",
+            exclude: "/node_modules"
+          },
+          {
+            test: /\.ejs$/i,
+            use: ["html-loader", "template-ejs-loader"]
           }
         ]
       }
