@@ -107,22 +107,10 @@ p {
 
 /*----------bootstrap-navbar-css-----------*/
 
-/* .navbar-logo {
-  padding: 15px;
-  background: #126434;
-} */
 .container-fluid {
   background: rgb(91, 144, 109);
 }
 .navbar-mainbg {
   background-color: #126434;
   padding: 0px;
-}
-#navbarSupportedContent {
-  overflow: hidden;
-  position: relative;
-}
-
-#navbarSupportedContent ul li a i {
-  margin-right: 10px;
 }
