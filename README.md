@@ -4,6 +4,6 @@ This project required current version of node.js, ejs, express and bootstrap.
 
 # Commands
 
-npm install
-nodemon index.js
+npm install,
+nodemon index.js,
 npm run dev
